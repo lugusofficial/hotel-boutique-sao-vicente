@@ -1,0 +1,315 @@
+{
+ "nome": "Sua Marca",
+ "cidade": "São Vicente",
+ "tipos": {
+  "luxo-duplo": {
+   "nome": "Luxo Duplo",
+   "base": 260,
+   "pagina": "luxo-duplo.html",
+   "hosp": 2,
+   "hidro": false
+  },
+  "master": {
+   "nome": "Master Luxo com Hidromassagem",
+   "base": 390,
+   "pagina": "master.html",
+   "hosp": 2,
+   "hidro": true
+  },
+  "triplo": {
+   "nome": "Luxo Triplo",
+   "base": 330,
+   "pagina": "triplo.html",
+   "hosp": 3,
+   "hidro": false
+  },
+  "single": {
+   "nome": "Luxo Single",
+   "base": 190,
+   "pagina": "single.html",
+   "hosp": 1,
+   "hidro": false
+  },
+  "familia": {
+   "nome": "Família",
+   "base": 420,
+   "pagina": "familia.html",
+   "hosp": 4,
+   "hidro": false
+  },
+  "suite": {
+   "nome": "Suíte Deluxe",
+   "base": 480,
+   "pagina": "suite.html",
+   "hosp": 2,
+   "hidro": true
+  }
+ },
+ "andares": [
+  {
+   "numero": 1,
+   "quartos": [
+    {
+     "numero": 101,
+     "tipo": "luxo-duplo",
+     "precoBase": 260,
+     "status": "disponivel"
+    },
+    {
+     "numero": 102,
+     "tipo": "luxo-duplo",
+     "precoBase": 260,
+     "status": "disponivel"
+    },
+    {
+     "numero": 103,
+     "tipo": "luxo-duplo",
+     "precoBase": 260,
+     "status": "disponivel"
+    },
+    {
+     "numero": 104,
+     "tipo": "triplo",
+     "precoBase": 330,
+     "status": "disponivel"
+    },
+    {
+     "numero": 105,
+     "tipo": "single",
+     "precoBase": 190,
+     "status": "indisponivel"
+    },
+    {
+     "numero": 106,
+     "tipo": "familia",
+     "precoBase": 420,
+     "status": "disponivel"
+    },
+    {
+     "numero": 107,
+     "tipo": "master",
+     "precoBase": 390,
+     "status": "disponivel"
+    },
+    {
+     "numero": 108,
+     "tipo": "suite",
+     "precoBase": 480,
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "quartos": [
+    {
+     "numero": 201,
+     "tipo": "luxo-duplo",
+     "precoBase": 265,
+     "status": "indisponivel"
+    },
+    {
+     "numero": 202,
+     "tipo": "luxo-duplo",
+     "precoBase": 265,
+     "status": "disponivel"
+    },
+    {
+     "numero": 203,
+     "tipo": "luxo-duplo",
+     "precoBase": 265,
+     "status": "disponivel"
+    },
+    {
+     "numero": 204,
+     "tipo": "triplo",
+     "precoBase": 335,
+     "status": "disponivel"
+    },
+    {
+     "numero": 205,
+     "tipo": "single",
+     "precoBase": 195,
+     "status": "disponivel"
+    },
+    {
+     "numero": 206,
+     "tipo": "familia",
+     "precoBase": 425,
+     "status": "disponivel"
+    },
+    {
+     "numero": 207,
+     "tipo": "master",
+     "precoBase": 395,
+     "status": "indisponivel"
+    },
+    {
+     "numero": 208,
+     "tipo": "suite",
+     "precoBase": 485,
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "quartos": [
+    {
+     "numero": 301,
+     "tipo": "luxo-duplo",
+     "precoBase": 270,
+     "status": "disponivel"
+    },
+    {
+     "numero": 302,
+     "tipo": "luxo-duplo",
+     "precoBase": 270,
+     "status": "disponivel"
+    },
+    {
+     "numero": 303,
+     "tipo": "luxo-duplo",
+     "precoBase": 270,
+     "status": "indisponivel"
+    },
+    {
+     "numero": 304,
+     "tipo": "triplo",
+     "precoBase": 340,
+     "status": "disponivel"
+    },
+    {
+     "numero": 305,
+     "tipo": "single",
+     "precoBase": 200,
+     "status": "disponivel"
+    },
+    {
+     "numero": 306,
+     "tipo": "familia",
+     "precoBase": 430,
+     "status": "disponivel"
+    },
+    {
+     "numero": 307,
+     "tipo": "master",
+     "precoBase": 400,
+     "status": "disponivel"
+    },
+    {
+     "numero": 308,
+     "tipo": "suite",
+     "precoBase": 490,
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "quartos": [
+    {
+     "numero": 401,
+     "tipo": "luxo-duplo",
+     "precoBase": 275,
+     "status": "disponivel"
+    },
+    {
+     "numero": 402,
+     "tipo": "luxo-duplo",
+     "precoBase": 275,
+     "status": "disponivel"
+    },
+    {
+     "numero": 403,
+     "tipo": "luxo-duplo",
+     "precoBase": 275,
+     "status": "disponivel"
+    },
+    {
+     "numero": 404,
+     "tipo": "triplo",
+     "precoBase": 345,
+     "status": "disponivel"
+    },
+    {
+     "numero": 405,
+     "tipo": "single",
+     "precoBase": 205,
+     "status": "disponivel"
+    },
+    {
+     "numero": 406,
+     "tipo": "familia",
+     "precoBase": 435,
+     "status": "disponivel"
+    },
+    {
+     "numero": 407,
+     "tipo": "master",
+     "precoBase": 405,
+     "status": "disponivel"
+    },
+    {
+     "numero": 408,
+     "tipo": "suite",
+     "precoBase": 495,
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "quartos": [
+    {
+     "numero": 501,
+     "tipo": "luxo-duplo",
+     "precoBase": 280,
+     "status": "disponivel"
+    },
+    {
+     "numero": 502,
+     "tipo": "luxo-duplo",
+     "precoBase": 280,
+     "status": "disponivel"
+    },
+    {
+     "numero": 503,
+     "tipo": "luxo-duplo",
+     "precoBase": 280,
+     "status": "disponivel"
+    },
+    {
+     "numero": 504,
+     "tipo": "triplo",
+     "precoBase": 350,
+     "status": "disponivel"
+    },
+    {
+     "numero": 505,
+     "tipo": "single",
+     "precoBase": 210,
+     "status": "disponivel"
+    },
+    {
+     "numero": 506,
+     "tipo": "familia",
+     "precoBase": 440,
+     "status": "disponivel"
+    },
+    {
+     "numero": 507,
+     "tipo": "master",
+     "precoBase": 410,
+     "status": "disponivel"
+    },
+    {
+     "numero": 508,
+     "tipo": "suite",
+     "precoBase": 500,
+     "status": "disponivel"
+    }
+   ]
+  }
+ ]
+}
